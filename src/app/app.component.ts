@@ -7,4 +7,12 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'exercicio-um';
+  cont = 0
+  contarPositivo():number{
+    return this.cont++
+  }
+  contarNegativo():number{
+    return this.cont--
+  }
+  
 }
